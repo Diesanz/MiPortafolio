@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portafolio de Diego</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <header class="nav">
+        <div class="container nav-inner">
+            <a class="brand" href="#inicio" aria-label="Volver al inicio">
+                <span class="brand-dot" aria-hidden="true"></span>
+                Diego
+            </a>
+            <nav>
+                <button class="burger" id="burger" aria-label="Mostrar menú">☰</button>
+                <div class="menu" id="menu">
+                    <a href="#sobre">Sobre mí</a>
+                    <a href="#proyectos">Proyectos</a>
+                    <a href="#skills">Habilidades</a>
+                    <a href="#contacto">Contacto</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+        <div class="container hero-grid">
+            <div>
+                <span class="kicker">Estudiante de Ingeniería Informática</span>
+                <h1>Soy <span>Diego</span>, apasionado por la informática y la ciencia</h1>
+                <p>Soy estudiante en la Escuela de Ingeniería Informática de Valladolid, próximo a finalizar mis
+                    estudios.</p>
+                <p>Me adapto rápido a nuevos proyectos; aprendo y trabajo con mucha energía.</p>
+                <p class="tagline">Aquí verás mis proyectos, intereses y nivel actual.</p>
+                <div class="cta">
+                    <a class="btn primary" href="#proyectos">Ver proyectos</a>
+                    <a class="btn" href="#contacto">Contactar</a>
+                </div>
+            </div>
+            <aside class="card-hero">
+                <h3>Resumen rápido</h3>
+                <p>Python · Kali · Grafana · Flask · Aprendizaje Automático</p>
+                <div class="stats">
+                    <div class="stat"><b>15+</b><span>Repositorios</span></div>
+                    <div class="stat"><b>6</b><span>Proyectos clave</span></div>
+                    <div class="stat"><b>B2</b><span>Inglés</span></div>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <!-- SOBRE MÍ -->
+    <section id="sobre" class="section">
+        <div class="container about reveal">
+            <div class="box">
+                <span class="kicker">Sobre mí</span>
+                <h2>¿Quién soy?</h2>
+                <p>Entusiasta de la informática, me atraen muchísimo la ciberseguridad y el aprendizaje automático.</p>
+                <p>Me gusta leer libros relacionados con la ciencia e ir al gimnasio</p>
+                <div class="chips" aria-label="Intereses">
+                    <span class="chip">Python</span>
+                    <span class="chip">Kali Linux</span>
+                    <span class="chip">Metasploit</span>
+                    <span class="chip">Grafana</span>
+                    <span class="chip">Flask</span>
+                    <span class="chip">Redes neuronales</span>
+                </div>
+            </div>
+            <div class="box">
+                <span class="kicker">Qué hago</span>
+                <h2>En qué estoy</h2>
+                <p>Estoy terminando la carrera de Ingeniería Informática. En mis ratos libres desarrollo proyectos
+                    propios y sigo aprendiendo sobre diversas ramas de la informática.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="proyectos" class="section">
+    <div class="container reveal">
+        <span class="kicker">Proyectos</span>
+        <h2>Destacados</h2>
+        <div class="grid" style="margin-top:1rem;">
+
+        <!-- PruebasCargaWeb -->
+        <article class="project">
+            <div class="thumb" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M3 7h18M3 12h18M3 17h18"/>
+            </svg>
+            </div>
+            <div class="content">
+            <h3>Pruebas de Carga Web</h3>
+            <p>Simulación de usuarios concurrentes sobre una página web usando Locust, con visualización de métricas en Grafana.</p>
+            <div class="meta"><span>Python</span><span>Locust</span><span>Grafana</span></div>
+            </div>
+            <div class="actions">
+            <a href="https://github.com/Diesanz/PruebasCargaWeb" target="_blank">GitHub</a>
+            </div>
+        </article>
+
+        <!-- Astro AI Portafolio -->
+        <article class="project">
+        <div class="thumb" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <circle cx="12" cy="12" r="10"/>
+            </svg>
+        </div>
+        <div class="content">
+            <h3>Astro AI Portafolio</h3>
+            <p>Portafolio personal basado en aprendizaje automático y redes neuronales, desarrollado para aplicaciones científicas.</p>
+            <div class="meta">
+            <span>Python</span><span>PyTorch</span><span>Scikit-learn</span><span>NumPy</span><span>Pandas</span><span>Matplotlib</span>
+            </div>
+        </div>
+        <div class="actions">
+            <a href="https://github.com/Diesanz/Astro-ai-portafolio" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+        </article>
+
+
+        <!-- Grafan Project -->
+        <article class="project">
+        <div class="thumb" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M4 4h16v16H4z"/>
+            </svg>
+        </div>
+        <div class="content">
+            <h3>Grafana Project</h3>
+            <p>Dashboard de métricas en Grafana para monitorización de sistemas y visualización de datos en tiempo real.</p>
+            <div class="meta"><span>Grafana</span><span>Python</span><span>Locust</span><span>SQL</span></div>
+        </div>
+        <div class="actions">
+            <a href="https://github.com/Diesanz/Grafan_project" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+        </article>
+
+
+        <!-- Cibersecurity -->
+        <article class="project">
+            <div class="thumb" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M12 2l9 4v6c0 5-3.5 9.5-9 10-5.5-.5-9-5-9-10V6z"/>
+            </svg>
+            </div>
+            <div class="content">
+            <h3>Cibersecurity</h3>
+            <p>Conjunto de prácticas y scripts orientados al pentesting, automatización de ataques y análisis de vulnerabilidades.</p>
+            <div class="meta"><span>Kali</span><span>Python</span><span>Networking</span></div>
+            </div>
+            <div class="actions">
+            <a href="https://github.com/Diesanz/Cibersecurity" target="_blank">GitHub</a>
+            </div>
+        </article>
+
+        <!-- Packet Tracer -->
+        <article class="project">
+            <div class="thumb" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M12 2v20M2 12h20"/>
+            </svg>
+            </div>
+            <div class="content">
+            <h3>Packet Tracer</h3>
+            <p>Topologías de red simuladas con Cisco Packet Tracer, incluyendo protocolos de enrutamiento y configuración de switches/routers.</p>
+            <div class="meta"><span>Cisco</span><span>Networking</span></div>
+            </div>
+            <div class="actions">
+            <a href="https://github.com/Diesanz/Packet_Tracer" target="_blank">GitHub</a>
+            </div>
+        </article>
+
+        <!-- Shell Scripts -->
+        <article class="project">
+            <div class="thumb" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M4 4h16v16H4z"/>
+            </svg>
+            </div>
+            <div class="content">
+            <h3>Shell Scripts</h3>
+            <p>Colección de scripts en Bash para automatizar tareas en Linux: administración, red y pentesting.</p>
+            <div class="meta"><span>Bash</span><span>Linux</span></div>
+            </div>
+            <div class="actions">
+            <a href="https://github.com/Diesanz/Shell-Scripts" target="_blank">GitHub</a>
+            </div>
+        </article>
+
+        <!-- BASH -->
+        <article class="project">
+            <div class="thumb" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <circle cx="12" cy="12" r="10"/>
+            </svg>
+            </div>
+            <div class="content">
+            <h3>BASH</h3>
+            <p>Scripts avanzados de Bash enfocados en seguridad, automatización y optimización de entornos Linux.</p>
+            <div class="meta"><span>Bash</span><span>Linux</span></div>
+            </div>
+            <div class="actions">
+            <a href="https://github.com/Diesanz/BASH" target="_blank">GitHub</a>
+            </div>
+        </article>
+
+        <!-- Gestion Empresa Web -->
+        <article class="project">
+            <div class="thumb" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M3 3h18v18H3z"/>
+            </svg>
+            </div>
+            <div class="content">
+            <h3>Gestión Empresa Web</h3>
+            <p>Aplicación web para gestión de empleados y departamentos con autenticación y CRUD completo.</p>
+            <div class="meta"><span>Python</span><span>FastAPI</span><span>MySQL</span></div>
+            </div>
+            <div class="actions">
+            <a href="https://github.com/Diesanz/GestionEmpresaWEB" target="_blank">GitHub</a>
+            </div>
+        </article>
+
+        </div>
+    </div>
+    </section>
+
+
+    <!-- HABILIDADES -->
+    <section id="skills" class="section">
+        <div class="container reveal">
+            <span class="kicker">Nivel</span>
+            <h2>Habilidades</h2>
+            <div class="skills" style="margin-top:1rem;">
+
+                <div class="skill">
+                    <h3>Python</h3>
+                    <div class="bars">
+                        <div class="bar" data-level="85"></div>
+                    </div>
+                    <p>Automatización, parsing, tooling para pentesting y aprendizaje automático (Pytorch, sklearn, pandas, numpy).</p>
+                </div>
+
+                <div class="skill">
+                    <h3>Kali / Pentesting</h3>
+                    <div class="bars">
+                        <div class="bar" data-level="60"></div>
+                    </div>
+                    <p>Nmap, explotación guiada, workflows con Metasploit e Hydra.</p>
+                </div>
+
+                <div class="skill">
+                    <h3>Flask / FastAPI / APIs</h3>
+                    <div class="bars">
+                        <div class="bar" data-level="85"></div>
+                    </div>
+                    <p>Diseño de APIs ligeras y servicios web con Flask y FastAPI.</p>
+                </div>
+
+                <div class="skill">
+                    <h3>MySQL</h3>
+                    <div class="bars">
+                        <div class="bar" data-level="80"></div>
+                    </div>
+                    <p>Modelado de bases de datos y queries para aplicaciones web.</p>
+                </div>
+
+                <div class="skill">
+                    <h3>C (y CUDA)</h3>
+                    <div class="bars">
+                        <div class="bar" data-level="75"></div>
+                    </div>
+                    <p>Proyectos de CMS propio, paralelización de código con CUDA.</p>
+                </div>
+
+                <div class="skill">
+                    <h3>Administración de sistemas</h3>
+                    <div class="bars">
+                        <div class="bar" data-level="80"></div>
+                    </div>
+                    <p>Experiencia con Linux, Ubuntu, Minix y manejo avanzado de terminal.</p>
+                </div>
+
+                <div class="skill">
+                    <h3>Shell scripting</h3>
+                    <div class="bars">
+                        <div class="bar" data-level="80"></div>
+                    </div>
+                    <p>Automatización de tareas en Linux mediante scripts en Bash.</p>
+                </div>
+
+                <div class="skill">
+                    <h3>C# y Unity</h3>
+                    <div class="bars">
+                        <div class="bar" data-level="65"></div>
+                    </div>
+                    <p>Desarrollo de prototipos y videojuegos a pequeña escala.</p>
+                </div>
+
+                <div class="skill">
+                    <h3>Grafana / Observabilidad</h3>
+                    <div class="bars">
+                        <div class="bar" data-level="60"></div>
+                    </div>
+                    <p>Dashboards de métricas y pruebas de carga con integración de datos.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="section">
+        <div class="container contact">
+            <div class="panel">
+                <span class="kicker">Contacto</span>
+                <h2>Hablemos</h2>
+                <p>📧 <a href="mailto:diego.sanzr2003@gmail.com">diego.sanzr2003@gmail.com</a></p>
+                <p>🐙 <a href="https://github.com/Diesanz" target="_blank">GitHub</a> · 💼 <a href="#"
+                        target="_blank">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Diego – Mi Portafolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
