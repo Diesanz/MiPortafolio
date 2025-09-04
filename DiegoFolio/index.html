@@ -14,12 +14,14 @@
         <div class="container nav-inner">
             <a class="brand" href="#inicio" aria-label="Volver al inicio">
                 <span class="brand-dot" aria-hidden="true"></span>
-                Diego
+                Diego Sanz
             </a>
             <nav>
                 <button class="burger" id="burger" aria-label="Mostrar menú">☰</button>
                 <div class="menu" id="menu">
                     <a href="#sobre">Sobre mí</a>
+                    <a href="#formacion">Formación y Experiencia</a>
+                    <a href="#competencias">Competencias</a>
                     <a href="#proyectos">Proyectos</a>
                     <a href="#skills">Habilidades</a>
                     <a href="#contacto">Contacto</a>
@@ -34,10 +36,9 @@
             <div>
                 <span class="kicker">Estudiante de Ingeniería Informática</span>
                 <h1>Soy <span>Diego</span>, apasionado por la informática y la ciencia</h1>
-                <p>Soy estudiante en la Escuela de Ingeniería Informática de Valladolid, próximo a finalizar mis
-                    estudios.</p>
+                <p>Próximo a finalizar mis estudios en la Escuela de Ingeniería Informática de Valladolid.</p>
                 <p>Me adapto rápido a nuevos proyectos; aprendo y trabajo con mucha energía.</p>
-                <p class="tagline">Aquí verás mis proyectos, intereses y nivel actual.</p>
+
                 <div class="cta">
                     <a class="btn primary" href="#proyectos">Ver proyectos</a>
                     <a class="btn" href="#contacto">Contactar</a>
@@ -61,22 +62,51 @@
             <div class="box">
                 <span class="kicker">Sobre mí</span>
                 <h2>¿Quién soy?</h2>
-                <p>Entusiasta de la informática, me atraen muchísimo la ciberseguridad y el aprendizaje automático.</p>
-                <p>Me gusta leer libros relacionados con la ciencia e ir al gimnasio</p>
+                <p>Entusiasta de la informática, me atraen la ciberseguridad, los sistemas operativos y el aprendizaje automático.</p>
+                <p>Me gusta leer, practicar deporte y explorar nuevas tecnologías.</p>
                 <div class="chips" aria-label="Intereses">
                     <span class="chip">Python</span>
                     <span class="chip">Kali Linux</span>
                     <span class="chip">Metasploit</span>
                     <span class="chip">Grafana</span>
-                    <span class="chip">Flask</span>
+                    <span class="chip">Flask / FastAPI</span>
                     <span class="chip">Redes neuronales</span>
+                    <span class="chip">Sistemas Operativos</span>
+                    <span class="chip">Ciencia de Datos</span>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- FORMACIÓN -->
+    <section id="formacion" class="section">
+        <div class="container about forma">
             <div class="box">
-                <span class="kicker">Qué hago</span>
-                <h2>En qué estoy</h2>
-                <p>Estoy terminando la carrera de Ingeniería Informática. En mis ratos libres desarrollo proyectos
-                    propios y sigo aprendiendo sobre diversas ramas de la informática.</p>
+                <span class="kicker">Formación y Experiencia</span>
+                <h2>Académico y profesional</h2>
+                <ul>
+                    <li><b>Grado en Ingeniería Informática</b>, Universidad de Valladolid (2021 – 2025)</li>
+                    <li><b>Bachillerato</b>, Instituto Maristas Castilla, Palencia (2019 – 2021)</li>
+                    <li><b>Auxiliar de Vigilancia</b>, Prosegur (2022)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- COMPETENCIAS -->
+    <section id="competencias" class="section">
+        <div class="container reveal">
+            <span class="kicker">Competencias Personales</span>
+            <h2>Habilidades y fortalezas</h2>
+            <div class="chips">
+                <span class="chip">Trabajo en equipo</span>
+                <span class="chip">Responsabilidad</span>
+                <span class="chip">Adaptación a entornos internacionales</span>
+                <span class="chip">Comunicación</span>
+                <span class="chip">Motivación</span>
+                <span class="chip">Resolución de problemas</span>
+                <span class="chip">Curiosidad y ganas de aprender</span>
+                <span class="chip">Interés constante por nuevas tecnologías</span>
             </div>
         </div>
     </section>
@@ -242,17 +272,33 @@
                 <div class="skill">
                     <h3>Python</h3>
                     <div class="bars">
-                        <div class="bar" data-level="85"></div>
+                        <div class="bar" data-level="90"></div>
                     </div>
                     <p>Automatización, parsing, tooling para pentesting y aprendizaje automático (Pytorch, sklearn, pandas, numpy).</p>
                 </div>
 
                 <div class="skill">
-                    <h3>Kali / Pentesting</h3>
+                    <h3>Javascript, HTML, CSS</h3>
                     <div class="bars">
-                        <div class="bar" data-level="60"></div>
+                        <div class="bar" data-level="65"></div>
                     </div>
-                    <p>Nmap, explotación guiada, workflows con Metasploit e Hydra.</p>
+                    <p>Aplicación de conceptos de diseño frontend en el desarrollo de páginas web.</p>
+                </div>
+
+                <div class="skill">
+                    <h3>C (y CUDA)</h3>
+                    <div class="bars">
+                        <div class="bar" data-level="70"></div>
+                    </div>
+                    <p>Proyectos de CMS propio, paralelización de código con CUDA.</p>
+                </div>
+
+                <div class="skill">
+                    <h3>MySQL</h3>
+                    <div class="bars">
+                        <div class="bar" data-level="75"></div>
+                    </div>
+                    <p>Modelado de bases de datos y queries para aplicaciones web y proyectos.</p>
                 </div>
 
                 <div class="skill">
@@ -261,22 +307,6 @@
                         <div class="bar" data-level="85"></div>
                     </div>
                     <p>Diseño de APIs ligeras y servicios web con Flask y FastAPI.</p>
-                </div>
-
-                <div class="skill">
-                    <h3>MySQL</h3>
-                    <div class="bars">
-                        <div class="bar" data-level="80"></div>
-                    </div>
-                    <p>Modelado de bases de datos y queries para aplicaciones web.</p>
-                </div>
-
-                <div class="skill">
-                    <h3>C (y CUDA)</h3>
-                    <div class="bars">
-                        <div class="bar" data-level="75"></div>
-                    </div>
-                    <p>Proyectos de CMS propio, paralelización de código con CUDA.</p>
                 </div>
 
                 <div class="skill">
@@ -304,12 +334,30 @@
                 </div>
 
                 <div class="skill">
+                    <h3>Diseño de software</h3>
+                    <div class="bars">
+                        <div class="bar" data-level="80"></div>
+                    </div>
+                    <p>Conocimientos en diseño de software: diagramas de flujo, diagramas de clases y modelado de sistemas, aplicados en diversos proyectos.</p>
+                </div>
+
+                <div class="skill">
+                    <h3>Kali / Pentesting</h3>
+                    <div class="bars">
+                        <div class="bar" data-level="55"></div>
+                    </div>
+                    <p>Nmap, explotación guiada, workflows con Metasploit e Hydra.</p>
+                </div>
+
+                <div class="skill">
                     <h3>Grafana / Observabilidad</h3>
                     <div class="bars">
-                        <div class="bar" data-level="60"></div>
+                        <div class="bar" data-level="80"></div>
                     </div>
                     <p>Dashboards de métricas y pruebas de carga con integración de datos.</p>
                 </div>
+
+
 
             </div>
         </div>
@@ -323,7 +371,7 @@
                 <span class="kicker">Contacto</span>
                 <h2>Hablemos</h2>
                 <p>📧 <a href="mailto:diego.sanzr2003@gmail.com">diego.sanzr2003@gmail.com</a></p>
-                <p>🐙 <a href="https://github.com/Diesanz" target="_blank">GitHub</a> · 💼 <a href="#"
+                <p>🐙 <a href="https://github.com/Diesanz" target="_blank">GitHub</a> · 💼 <a href="https://es.linkedin.com/in/diego-sanz-santos-853b78290?trk=people-guest_people_se"
                         target="_blank">LinkedIn</a></p>
             </div>
         </div>
