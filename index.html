@@ -1,77 +1,18 @@
-<!DOCTYPE html>
-<html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Portafolio de Diego Sanz</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-    <!-- NAVBAR -->
-    <header class="nav">
-        <div class="container nav-inner">
-            <a class="brand" href="#inicio" aria-label="Volver al inicio">
-                <span class="brand-dot" aria-hidden="true"></span>
-                Diego Sanz
-            </a>
-            <nav>
-                <button class="burger" id="burger" aria-label="Mostrar menú">☰</button>
-                <div class="menu" id="menu">
-                    <a href="#sobre">Sobre mí</a>
-                    <a href="#formacion">Formación y Experiencia</a>
-                    <a href="#competencias">Competencias</a>
-                    <a href="#proyectos">Proyectos</a>
-                    <a href="#skills">Habilidades</a>
-                    <a href="#contacto">Contacto</a>
-                </div>
-            </nav>
-        </div>
-    </header>
-
-    <!-- HERO -->
-    <section id="inicio" class="hero">
-        <div class="container hero-grid">
-            <div>
-                <span class="kicker">Graduado en Ingeniería Informática</span>
-                <h1>Soy <span>Diego</span>, un apasionado de la tecnología y el aprendizaje continuo</h1>
-                <p>Estudiante de Máster en la Universidad de Valladolid. Disfruto resolviendo problemas reales y cacharreando con nuevas herramientas, desde IA hasta infraestructuras.</p>
-                <p>Me adapto rápido a los cambios, disfruto del trabajo en equipo y siempre estoy buscando aprender algo nuevo.</p>
-
-                <div class="cta">
-                    <a class="btn primary" href="#proyectos">Ver proyectos</a>
-                    <a class="btn" href="#contacto">Contactar</a>
-                </div>
-            </div>
-            <aside class="card-hero">
-                <h3>Resumen rápido</h3>
-
-                <div class="stats">
-                    <div class="stat"><b>UVa</b><span>Estudiante de Máster</span></div>
-                    <div class="stat"><b>🇩🇪</b><span>Experiencia en Alemania</span></div>
-                    <div class="stat"><b>15+</b><span>Repositorios GitHub</span></div>
-                    <div class="stat"><b>B2</b><span>Inglés</span></div>
-                </div>
-            </aside>
-        </div>
-    </section>
-
-    <!-- SOBRE MÍ -->
+<!-- SOBRE MÍ -->
     <section id="sobre" class="section">
         <div class="container about reveal">
             <div class="box">
                 <span class="kicker">Sobre mí</span>
                 <h2>¿Quién soy?</h2>
                 <p>Me considero una persona muy curiosa. Me interesa especialmente el campo del Machine Learning, la Visión Artificial y cómo aplicar estos modelos para resolver problemas del mundo real.</p>
-                <p>Recientemente he estado de prácticas en Alemania, donde pude trabajar con robótica (ROS2), hardware empotrado y modelos de ML. A nivel técnico me siento cómodo trasteando con Python, Spark, Scala, y montando infraestructuras (Linux, Docker, shell scripting).</p>
+                <p>Recientemente he estado de prácticas en Alemania, donde pude trabajar con software de robótica (ROS2), hardware híbrido (<b>Arduino UNO Q</b>) y modelos de ML. A nivel técnico me siento cómodo trasteando con Python, Spark, Scala, y montando infraestructuras (Linux, Docker, shell scripting).</p>
                 <div class="chips" aria-label="Intereses">
                     <span class="chip">Python & ML</span>
                     <span class="chip">Spark & Scala</span>
                     <span class="chip">Docker & Linux</span>
-                    <span class="chip">ROS 2 & Robótica</span>
+                    <span class="chip">ROS 2</span>
                     <span class="chip">Ciberseguridad</span>
-                    <span class="chip">IoT & Hardware</span>
+                    <span class="chip">Arduino UNO Q</span>
                     <span class="chip">Trabajo en equipo</span>
                 </div>
             </div>
@@ -85,28 +26,11 @@
                 <span class="kicker">Formación y Experiencia</span>
                 <h2>Trayectoria Académica y Profesional</h2>
                 <ul>
-                    <li><b>Prácticas y Estudiante de TFG</b>, Comlet, Alemania (Marzo 2026 – Julio 2026) <br><small>Desarrollo de proyectos multidisciplinares integrando IA, Visión Artificial y hardware mediante ROS2.</small></li>
+                    <li><b>Prácticas y Estudiante de TFG</b>, Comlet, Alemania (Marzo 2026 – Julio 2026) <br><small>Desarrollo de proyectos multidisciplinares integrando IA, Visión Artificial y la plataforma Arduino UNO Q mediante ROS2.</small></li>
                     <li><b>Máster en Ingeniería Informática</b>, Universidad de Valladolid (2026 – Actualidad)</li>
                     <li><b>Grado en Ingeniería Informática</b>, Universidad de Valladolid (2021 – 2026)</li>
                     <li><b>Auxiliar de Seguridad</b>, Prosegur (2022 – 2025) <br><small>Compaginado con los estudios, desarrollando gran responsabilidad y trabajo en equipo.</small></li>
                 </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- COMPETENCIAS -->
-    <section id="competencias" class="section">
-        <div class="container reveal">
-            <span class="kicker">Competencias Personales</span>
-            <h2>Habilidades y fortalezas</h2>
-            <div class="chips">
-                <span class="chip">Curiosidad y ganas de aprender</span>
-                <span class="chip">Trabajo en equipo</span>
-                <span class="chip">Resolución de problemas</span>
-                <span class="chip">Responsabilidad</span>
-                <span class="chip">Adaptación a entornos internacionales</span>
-                <span class="chip">Motivación</span>
-                <span class="chip">Interés por las nuevas tecnologías</span>
             </div>
         </div>
     </section>
@@ -271,7 +195,7 @@
                 <div class="skill">
                     <h3>Python (Machine Learning & Scripting)</h3>
                     <div class="bars">
-                        <div class="bar" data-level="85"></div>
+                        <div class="bar" data-level="65"></div>
                     </div>
                     <p>Experiencia práctica en proyectos de Inteligencia Artificial (PyTorch, Scikit-learn), visión artificial y creación de scripts.</p>
                 </div>
@@ -279,39 +203,39 @@
                 <div class="skill">
                     <h3>Procesamiento de Datos</h3>
                     <div class="bars">
-                        <div class="bar" data-level="75"></div>
+                        <div class="bar" data-level="65"></div>
                     </div>
-                    <p>Conocimientos en Apache Spark, programación en Scala y Python, para la manipulación, análisis y trabajo con datos.</p>
+                    <p>Conocimientos en Apache Spark, programación en Scala y análisis en Python para la manipulación y trabajo con datos.</p>
                 </div>
 
                 <div class="skill">
                     <h3>Sistemas e Infraestructura</h3>
                     <div class="bars">
-                        <div class="bar" data-level="80"></div>
+                        <div class="bar" data-level="70"></div>
                     </div>
-                    <p>Me siento muy cómodo en la terminal: administración de entornos Linux, shell scripting y despliegue con contenedores Docker.</p>
+                    <p>Me siento muy cómodo en la terminal: administración de entornos Linux y shell scripting.</p>
                 </div>
 
                 <div class="skill">
-                    <h3>Robótica y Hardware (ROS2)</h3>
+                    <h3>Robótica y Hardware Híbrido (ROS2)</h3>
                     <div class="bars">
-                        <div class="bar" data-level="75"></div>
+                        <div class="bar" data-level="60"></div>
                     </div>
-                    <p>Desarrollo de aplicaciones integradas y trabajo con sensores/hardware durante mi estancia de TFG en Alemania.</p>
+                    <p>Desarrollo de aplicaciones integradas y trabajo con sensores Linux/MCU con la placa <b>Arduino UNO Q</b>, e integración de modelos de ML y Visión Artificial durante mi estancia en Alemania.</p>
                 </div>
 
                 <div class="skill">
                     <h3>Bases de Datos & Backend</h3>
                     <div class="bars">
-                        <div class="bar" data-level="80"></div>
+                        <div class="bar" data-level="75"></div>
                     </div>
-                    <p>Creación de APIs ligeras con FastAPI/Flask y modelado de bases de datos relacionales (MySQL, MariaDB).</p>
+                    <p>Creación de APIs ligeras con FastAPI/Flask, así como modelado y administración de bases de datos relacionales (MySQL, MariaDB).</p>
                 </div>
 
                 <div class="skill">
                     <h3>C y Bajo Nivel</h3>
                     <div class="bars">
-                        <div class="bar" data-level="70"></div>
+                        <div class="bar" data-level="60"></div>
                     </div>
                     <p>Proyectos universitarios de gestión de memoria, sistemas operativos básicos y paralelización de código.</p>
                 </div>
@@ -327,24 +251,3 @@
             </div>
         </div>
     </section>
-
-    <!-- CONTACTO -->
-    <section id="contacto" class="section">
-        <div class="container contact">
-            <div class="panel">
-                <span class="kicker">Contacto</span>
-                <h2>¿Hablamos?</h2>
-                <p>📧 <a href="mailto:diego.sanzr2003@gmail.com">diego.sanzr2003@gmail.com</a></p>
-                <p>🐙 <a href="https://github.com/Diesanz" target="_blank">GitHub</a> · 💼 <a href="https://es.linkedin.com/in/diego-sanz-santos-853b78290" target="_blank">LinkedIn</a></p>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <p>&copy; 2026 Diego Sanz – Mi Portafolio</p>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
-
-</html>
