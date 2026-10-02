@@ -1,4 +1,63 @@
-<!-- SOBRE MÍ -->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portafolio de Diego Sanz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <header class="nav">
+        <div class="container nav-inner">
+            <a class="brand" href="#inicio" aria-label="Volver al inicio">
+                <span class="brand-dot" aria-hidden="true"></span>
+                Diego Sanz
+            </a>
+            <nav>
+                <button class="burger" id="burger" aria-label="Mostrar menú">☰</button>
+                <div class="menu" id="menu">
+                    <a href="#sobre">Sobre mí</a>
+                    <a href="#formacion">Formación y Experiencia</a>
+                    <a href="#competencias">Competencias</a>
+                    <a href="#proyectos">Proyectos</a>
+                    <a href="#skills">Habilidades</a>
+                    <a href="#contacto">Contacto</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+        <div class="container hero-grid">
+            <div>
+                <span class="kicker">Graduado en Ingeniería Informática</span>
+                <h1>Soy <span>Diego</span>, un apasionado de la tecnología y el aprendizaje continuo</h1>
+                <p>Estudiante de Máster en la Universidad de Valladolid. Disfruto resolviendo problemas reales y cacharreando con nuevas herramientas, desde IA hasta infraestructuras.</p>
+                <p>Me adapto rápido a los cambios, disfruto del trabajo en equipo y siempre estoy buscando aprender algo nuevo.</p>
+
+                <div class="cta">
+                    <a class="btn primary" href="#proyectos">Ver proyectos</a>
+                    <a class="btn" href="#contacto">Contactar</a>
+                </div>
+            </div>
+            <aside class="card-hero">
+                <h3>Resumen rápido</h3>
+
+                <div class="stats">
+                    <div class="stat"><b>UVa</b><span>Estudiante de Máster</span></div>
+                    <div class="stat"><b>🇩🇪</b><span>Experiencia en Alemania</span></div>
+                    <div class="stat"><b>15+</b><span>Repositorios GitHub</span></div>
+                    <div class="stat"><b>B2</b><span>Inglés</span></div>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <!-- SOBRE MÍ -->
     <section id="sobre" class="section">
         <div class="container about reveal">
             <div class="box">
@@ -31,6 +90,23 @@
                     <li><b>Grado en Ingeniería Informática</b>, Universidad de Valladolid (2021 – 2026)</li>
                     <li><b>Auxiliar de Seguridad</b>, Prosegur (2022 – 2025) <br><small>Compaginado con los estudios, desarrollando gran responsabilidad y trabajo en equipo.</small></li>
                 </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- COMPETENCIAS -->
+    <section id="competencias" class="section">
+        <div class="container reveal">
+            <span class="kicker">Competencias Personales</span>
+            <h2>Habilidades y fortalezas</h2>
+            <div class="chips">
+                <span class="chip">Curiosidad y ganas de aprender</span>
+                <span class="chip">Trabajo en equipo</span>
+                <span class="chip">Resolución de problemas</span>
+                <span class="chip">Responsabilidad</span>
+                <span class="chip">Adaptación a entornos internacionales</span>
+                <span class="chip">Motivación</span>
+                <span class="chip">Interés por las nuevas tecnologías</span>
             </div>
         </div>
     </section>
@@ -251,3 +327,24 @@
             </div>
         </div>
     </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="section">
+        <div class="container contact">
+            <div class="panel">
+                <span class="kicker">Contacto</span>
+                <h2>¿Hablamos?</h2>
+                <p>📧 <a href="mailto:diego.sanzr2003@gmail.com">diego.sanzr2003@gmail.com</a></p>
+                <p>🐙 <a href="https://github.com/Diesanz" target="_blank">GitHub</a> · 💼 <a href="https://es.linkedin.com/in/diego-sanz-santos-853b78290" target="_blank">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Diego Sanz – Mi Portafolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
